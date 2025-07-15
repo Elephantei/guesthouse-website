@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Lightbox2 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guest House</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">    
+     <h1>Welcome to Our Guest House</h1>
+     <nav>
+     <a href="#gallery">Gallery</a>
+     <a href="#location">Location</a>
+     </div>
+    </nav>
+  </header>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid" id="gallery-grid">
+      <!-- Filled by JS -->
+    </div>
+  </section>
+
+  <section id="location">
+    <h2>Location</h2>
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=..."
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Guest House. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+<!-- Lightbox2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
+</body>
+</html>
