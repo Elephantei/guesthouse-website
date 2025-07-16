@@ -5,10 +5,6 @@ import {
   MapPin,
   Phone,
   Mail,
-  Wifi,
-  Car,
-  Coffee,
-  Utensils,
 } from 'lucide-react';
 
 function App() {
