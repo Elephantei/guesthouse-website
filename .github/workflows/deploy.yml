@@ -42,6 +42,16 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
         
+      - name: DEBUG List build contents
+        run: |
+          echo "Contents of root directory:"
+          ls -la
+          echo "Contents of guest-house-website directory:"
+          ls -la guest-house-website/
+          echo "Looking for build directories:"
+          find . -name "build" -type d
+          find . -name "dist" -type d
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
