@@ -30,13 +30,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm'
           
       - name: Install dependencies
         run: npm ci
+        working-directory: ./guesthouse-website
         
       - name: Build app
         run: npm run build
+        working-directory: ./guesthouse-website
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
