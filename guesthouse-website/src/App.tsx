@@ -5,11 +5,6 @@ import {
   MapPin,
   Phone,
   Mail,
-  Star,
-  Wifi,
-  Car,
-  Coffee,
-  Utensils,
 } from 'lucide-react';
 
 function App() {
@@ -37,30 +32,30 @@ function App() {
   //   '/images/image6.jpg',
   // ];
 
-  const amenities = [
-    { icon: Wifi, text: 'Free Wi-Fi' },
-    { icon: Car, text: 'Free Parking' },
-    { icon: Coffee, text: 'Coffee & Tea' },
-    { icon: Utensils, text: 'Kitchen Access' },
-  ];
+  // const amenities = [
+  //   { icon: Wifi, text: 'Free Wi-Fi' },
+  //   { icon: Car, text: 'Free Parking' },
+  //   { icon: Coffee, text: 'Coffee & Tea' },
+  //   { icon: Utensils, text: 'Kitchen Access' },
+  // ];
 
-  const testimonials = [
-    {
-      name: 'Sarah Johnson',
-      text: 'Absolutely beautiful place! The hospitality was exceptional and the views are breathtaking.',
-      rating: 5,
-    },
-    {
-      name: 'Mike Chen',
-      text: 'Perfect getaway location. Clean, comfortable, and the hosts were incredibly welcoming.',
-      rating: 5,
-    },
-    {
-      name: 'Emma Davis',
-      text: 'Exceeded all expectations. Will definitely be coming back!',
-      rating: 5,
-    },
-  ];
+  // const testimonials = [
+  //   {
+  //     name: 'Sarah Johnson',
+  //     text: 'Absolutely beautiful place! The hospitality was exceptional and the views are breathtaking.',
+  //     rating: 5,
+  //   },
+  //   {
+  //     name: 'Mike Chen',
+  //     text: 'Perfect getaway location. Clean, comfortable, and the hosts were incredibly welcoming.',
+  //     rating: 5,
+  //   },
+  //   {
+  //     name: 'Emma Davis',
+  //     text: 'Exceeded all expectations. Will definitely be coming back!',
+  //     rating: 5,
+  //   },
+  // ];
 
   // Scroll animation with fallback
   useEffect(() => {
